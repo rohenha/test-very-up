@@ -132,7 +132,6 @@ window.testVeryUp.pages.home = {
         single.backed = !single.backed;
         event = single.backed ? 'play' : 'reverse';
         single.rotateAnimation[event](0);
-
     },
 
     setAnimations: function (single) {
