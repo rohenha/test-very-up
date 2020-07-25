@@ -49,11 +49,11 @@
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
   </head>
-  <body class="<%= "page_" + current_page.data.className || "" %>" data-page="<%= current_page.data.className || "" %>">
-    <%= partial "layouts/header" %>
+  <body class="<%= "page_" + current_page.data.className || "" %> <%= "js_" + current_page.data.className || "" %>" data-page="<%= current_page.data.className || "" %>">
+    <%#= partial "layouts/header" %>
     <main>
       <%= yield %>
     </main>
-    <%= partial "layouts/footer" %>
+    <%#= partial "layouts/footer" %>
   </body>
 </html>

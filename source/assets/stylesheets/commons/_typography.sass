@@ -1,18 +1,25 @@
 html
-    color: $color-white
-    font-family: $font-regular
+    color: $color-1
+    font-family: $font-title
     font-size: $font-size-base + px
 
-h1,
-h2,
-h3
-    font-family: $font-title
-
 h1
-    font-size: px2rem(30)
+    color: $color-1
+    font-size: px2rem(36)
+    font-weight: 800
+    line-height: px2rem(44)
 
 h2
-    font-size: px2rem(25)
+    color: $color-1
+    font-size: px2rem(11)
+    letter-spacing: px2rem(1.57143)
+    line-height: px2rem(13)
+    text-transform: uppercase
+    &:not(:last-child)
+        margin-bottom: 11px
 
-a
-    text-decoration: none
+p
+    color: $color-2
+    font-size: px2rem(18)
+    font-weight: 600
+    line-height: px2rem(22)

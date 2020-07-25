@@ -1,0 +1,11 @@
+{
+  "name": "test-very-up",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rohenha/test-very-up.git",
+  "author": "<romain.breton.pro@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.4.2"
+  }
+}

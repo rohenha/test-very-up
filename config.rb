@@ -3,10 +3,10 @@
 # Site setting
 #
 ########################
-langs = [:fr, :en]
+langs = [:fr]
 config[:site_url] = 'https://template-website.fr'
-config[:site_name] = 'Middleman Starter kit'
-config[:site_description] = 'Middleman Starter Kit'
+config[:site_name] = 'Test Very Up'
+config[:site_description] = 'Test Very Up'
 config[:site_keywords] = ''
 config[:site_author] = ''
 config[:site_local] = 'fr_FR'

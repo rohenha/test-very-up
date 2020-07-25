@@ -5,5 +5,24 @@
     "image": "",
     "card": ""
   },
-  "title": "home page"
+  "title": "Collection Photo",
+  "subtitle": "Test intégration - Dév Front",
+  "cards": [
+    {
+      "text" : "5 Reasons To Choose A Notebook Over A Computer Desktop",
+      "image": "image-1.jpg"
+    },
+    {
+      "text": "5 Reasons To Choose A Notebook Over A Computer Desktop",
+      "image": "image-2.jpg"
+    },
+    {
+      "text": "5 Reasons To Choose A Notebook Over A Computer Desktop",
+      "image": "image-3.jpg"
+    },
+    {
+      "text": "5 Reasons To Choose A Notebook Over A Computer Desktop",
+      "image": "image-4.jpg"
+    }
+  ]
 }
