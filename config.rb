@@ -100,7 +100,7 @@ activate :favicon_maker do |f|
     favicon_directory = 'assets/images/favicon'
     f.template_dir  = "source/#{favicon_directory}"
     f.icons = {
-        "_favicon-original.png" => [
+        "_favicon-original.jpg" => [
           { icon: "#{favicon_directory}/apple-touch-icon-180x180-precomposed.png", size: "180x180" },             # Same as apple-touch-icon-57x57.png, for iPhone 6 Plus with @3× display
           { icon: "#{favicon_directory}/apple-touch-icon-152x152-precomposed.png", size: "152x152" },             # Same as apple-touch-icon-57x57.png, for retina iPad with iOS7.
           { icon: "#{favicon_directory}/apple-touch-icon-144x144-precomposed.png", size: "144x144" },             # Same as apple-touch-icon-57x57.png, for retina iPad with iOS6 or prior.
